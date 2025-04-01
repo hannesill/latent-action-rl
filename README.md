@@ -67,37 +67,23 @@ Prerequisites
 pip install -r requirements.txt
 ```
 
-
 ### 2.2. Running the Experiments
 
-#### a) Baseline & Latent Action Experiments:
-The experiments are implemented using CleanRL's PPO. You can run the experiments for each environment by executing:
-
-```bash
-TODO
-```
-
-#### b) POIC Evaluation & Projector Optimization:
-To evaluate the POIC metric and run projector optimization tests, execute:
-
-```bash
-TODO
-```
+Run the scripts in the experiments directory.
 
 ## 3. Results
 
-Detailed results, including plots of episodic returns and video comparisons, can be found in the docs/ directory. Highlights include:
-	•	Walker2d & Ant: Comparison videos demonstrating performance differences.
-	•	HalfCheetah & Humanoid: Charts illustrating the episodic return trends over 6 million global steps.
-	•	POIC Analysis: Graphs comparing reimplemented POIC scores against the original paper's results.
+Detailed results, including plots of episodic returns and video comparisons, can be found in the research report. Highlights include:
+* Walker2d & Ant: Baseline performs better.
+* HalfCheetah & Humanoid: Latent action model performs better.
+* POIC Analysis: Graphs comparing reimplemented POIC scores against the original paper's results and how POIC scores influence latent action RL performance.
 
 ## 4. Discussion & Future Work
 
 The project demonstrates that while latent action spaces can affect learning dynamics, their effectiveness varies significantly across environments. Future work should focus on:
-	•	Refining the precision of the POIC reimplementation.
-	•	Integrating projector optimization more tightly with policy training.
-	•	Running experiments with larger computational budgets to reduce variance.
-	•	Extending the approach to additional environments and RL algorithms.
+* Integrating projector optimization more tightly with policy training.
+* Running experiments with larger computational budgets to reduce variance.
+* Extending the approach to additional environments and RL algorithms.
 
 ## 5. License
 
