@@ -28,8 +28,8 @@ TODO
 #### a) Clone the repository:
 
 ```bash
-git clone https://github.com/hannesill/latent-rl.git
-cd latent-rl
+git clone https://github.com/hannesill/latent-action-rl.git
+cd latent-action-rl
 ```
 
 #### b) Install dependencies:
